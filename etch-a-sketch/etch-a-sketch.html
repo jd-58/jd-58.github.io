@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" type="text/css" href="etch-style.css"/>
+    <script src="main.js" defer></script>  
+</head>
+<body>
+    <nav>
+        <div class="nav-items">
+            <a href="/index.html#name">About Me</a>
+            <a href="/index.html#projects">Projects</a>
+            <a href="/index.html">Experience</a>
+            <a href="/">Resume</a>
+            <a href="/">Contact Me</a>
+        </div>
+    </nav>
+<div id="contentContainer">
+    <h1 id="title">Etch-a-sketch!</h1>
+    <div id="buttonContainer">
+        <button onclick="resizeGrid()" id="resize">Grid Size</button>
+        <button onclick="recolorGrid()" id="clear">Clear Grid</button>
+        <div id="pickColorContainer">
+            <div id="chooseColorText">Choose Color</div>
+            <input type="color" value="#ff0000" id="colorPicker" value="#0000ff">
+        </div>
+        <button onclick="useRandomColor()" id="randomColor">Random Color</button>
+    </div>
+        <div id="gridContainer">
+
+        </div>
+</div>
+    
+</body>
+</html>
