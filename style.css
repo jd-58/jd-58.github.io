@@ -18,15 +18,30 @@ nav {
     border-bottom: solid #2b4475;
 }
 
-.nav-items a {
+.nav-text {
       float: left;
-      width: 200px;
+      width: 175px;
       padding-top: 10px;
       height: 40px;
       text-align: center;
       font-size: 18px;
+      justify-content: center;
       color: white;
       text-decoration: none;
+      z-index: 1;
+}
+
+.nav-logo img {
+      float: left;
+      padding-top: 00px;
+      width: 40px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: auto;
+      text-align: center;
+
+      justify-content: center;
+
       z-index: 1;
 }
 
@@ -43,7 +58,9 @@ body {
     display: flex;
     padding: 10px;
     justify-content: center;
-
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucia Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .content {
@@ -132,4 +149,5 @@ not GitHub pages, Seems to be a GitHub pages issue */
     margin-bottom: 50px;
 
 }
+
 
