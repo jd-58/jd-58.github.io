@@ -41,8 +41,9 @@ nav {
 }
 
 #title {
-    flex-wrap: wrap;
+
     text-shadow: 2px 2px white;
+    margin-top: 80px;
 }
 
 
@@ -78,7 +79,7 @@ button {
 
 
 button:active {
-    box-shadow: 0 0 9e9q inset #0009; 
+    box-shadow: 0 0 inset #0009;
     background-color: #a10e98;
     color: #fff;
   }
@@ -130,6 +131,7 @@ button:active {
     font-family: 'Courier New', monospace;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.171);
     font-weight: bolder;
+    height: 80px;
 }
 
 #pickColorContainer {
@@ -167,7 +169,7 @@ input {
 
 
 input:active {
-    box-shadow: 0 0 9e9q inset #0009; 
+    box-shadow: 0 0 inset #0009;
     background-color: #a10e98;;
     color: #fff;
 }
