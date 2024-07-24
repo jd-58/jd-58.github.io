@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Jacob Deaton's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="nav-items">
-            <a href="/">About Me</a>
-            <a href="/">Portfolio</a>
+            <a href="#name">About Me</a>
+            <a href="#projects">Projects</a>
             <a href="/">Experience</a>
+            <a href="/">Resume</a>
             <a href="/">Contact Me</a>
         </div>
     </nav>
@@ -33,16 +34,25 @@
 
             <div class="content-box" id="portfolio-box">
                 <div class="content" id="portfolio-content">
-                    <h1>Portfolio</h1>
+                    <h1 id="projects">Projects</h1>
                     <h3 class="solid-line"></h3>
-                    <h3>Stock Analyzer | <a class="github-link" href="https://github.com/jd-58/stock-analyzer">Github
+                        <h3>Stock Analyzer | <a class="github-link" href="https://github.com/jd-58/stock-analyzer">Github
                         Link</a></h3>
-                    <p>A Python program that uses the Yahoo Finance API to download and
+                        <p>A Python program that uses the Yahoo Finance API to download and
                         display live stock data. Custom Tkinter was used to create a GUI, along with Matplotlib to
                         create the graph.</p>
                         <img src="/images/stock-analyzer-aapl-6mo.png" alt="A screenshot of the Stock Analyzer application,
-                        showing the 6 month price history of AAPL as of July 17th, 2024." class="portfolio-images"
-                             style="width: 900px; margin-top: 20px; ">
+                        showing the 6 month price history of AAPL as of July 17th, 2024." class="project-images"
+                             style="width: 900px; margin-top: 20px; margin-bottom: 30px;">
+
+                    <h3>Etch-A-Sketch | <a class="github-link" href="https://github.com/jd-58/etch-a-sketch">Github
+                        Link</a></h3>
+                        <p>A drawing program based on the classic Etch-A-Sketch toy. Features include a color
+                            selection button (including a "Random Color" option that automatically chooses a random
+                            color for each grid cell as you draw), grid size selector, and the ability to clear the grid.
+                        and the grid size.</p>
+                        <img src="/images/etch-a-sketch.png" alt="A screenshot of the Etch-A-Sketch program."
+                             class="project-images" style="width: 900px; margin-top: 20px; margin-bottom: 30px; ">
                 </div>
             </div>
 
