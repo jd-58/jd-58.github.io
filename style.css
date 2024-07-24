@@ -92,3 +92,13 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+#resume-line {
+    margin-bottom: 20px;
+}
+
+.pdf-holder  {
+    display: flex;
+    justify-content: center;
+}
+
