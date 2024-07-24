@@ -15,40 +15,41 @@ nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    border-bottom: solid #2b4475;
 }
 
 .nav-items a {
-  float: left;
-  width: 200px;
-  padding-top: 10px;
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-
+      float: left;
+      width: 200px;
+      padding-top: 10px;
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      z-index: 1;
 }
 
 
 body {
     background: #0c1c31;
-
-    margin-top: 200px;
+    overflow: auto;
+    margin-top: 80px;
 }
 
 .home {
     height: 25vh;
     display: flex;
-    align-items: center;
     padding: 10px;
     justify-content: center;
 
 }
 
 .content {
-    max-width: 900px;
+    max-width: 1500px;
     color: white;
     margin: 10px;
+    overflow: auto;
 }
 
 
@@ -83,4 +84,11 @@ body {
 .github-link {
     color: #76bbcc;
     font-style: italic;
+}
+
+.portfolio-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
