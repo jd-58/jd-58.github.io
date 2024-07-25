@@ -118,6 +118,14 @@ body {
     margin: 25px auto 150px;
 }
 
+#experience {
+    margin-top: 125px;
+}
+
+#resume {
+    margin-top: 75px;
+}
+
 .content h1 {
     font-size: 56px;
     font-weight: 700;
