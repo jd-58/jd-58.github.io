@@ -31,6 +31,10 @@ nav {
       z-index: 1;
 }
 
+.nav-text:hover {
+    color: lightgrey;
+}
+
 .nav-logo img {
       float: left;
       padding-top: 00px;
@@ -39,12 +43,13 @@ nav {
       margin-right: 50px;
       height: auto;
       text-align: center;
-
       justify-content: center;
-
       z-index: 1;
 }
 
+.nav-logo:hover {
+    filter: brightness(70%);
+}
 
 body {
     background: #0c1c31;
@@ -104,6 +109,11 @@ body {
     font-style: italic;
 }
 
+.github-link:hover {
+    color: #457485;
+}
+
+
 .project-images {
   display: block;
   margin-left: auto;
@@ -140,14 +150,20 @@ li {
     padding-left: 20px !important;
 }
 
-/* .navigation-anchor {
-  scroll-margin-top: 100px;
-} */
-
 #blank-space { /* to make navigation work properly with the nav bar. scroll-margin-top works in localhost but
 not GitHub pages, Seems to be a GitHub pages issue */
     margin-bottom: 50px;
-
 }
+
+#resume-box {
+    margin-bottom: 30px;
+}
+
+#bottom-space {
+    opacity: max(0%);
+}
+
+
+
 
 
