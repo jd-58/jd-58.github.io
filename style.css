@@ -76,31 +76,15 @@ a {
     filter: brightness(70%);
 }
 
-@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (max-width: 768px) and (min-resolution: 192dpi) {
-    nav {
-        height: 60px;
-    }
-    .nav-text {
-        font-size: 16px; /* Smaller text on mobile */
-        padding-top: 5px; /* Adjust padding to vertically center */
-        width: auto;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .nav-logo img {
-        width: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
 
 body {
+
     background: #0c1c31;
     overflow: auto;
-    margin-bottom: 50px;
     width: 100vw;
     height: 100vh;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 .home {
@@ -110,6 +94,8 @@ body {
     justify-content: center;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    width: 100vh;
+    margin: 0 auto;
 }
 
 .content {
@@ -120,6 +106,7 @@ body {
     width: 100vw;
     padding-left: 40px;
     padding-right: 40px;
+    display: block;
 
 
 }
@@ -210,19 +197,19 @@ body {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 94%}
+    0%{background-position:0 94%}
     50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
+    100%{background-position:0 94%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 94%}
+    0%{background-position:0 94%}
     50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
+    100%{background-position:0 94%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 94%}
+    0%{background-position:0 94%}
     50%{background-position:100% 7%}
-    100%{background-position:0% 94%}
+    100%{background-position:0 94%}
 }
 
 
