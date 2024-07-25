@@ -51,7 +51,8 @@ nav {
     filter: brightness(70%);
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (max-width: 768px) and (min-resolution: 192dpi) {
     nav {
         height: 60px;
     }
