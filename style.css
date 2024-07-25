@@ -2,33 +2,58 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucia Grande',
-    'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif
 }
 
 nav {
-    height: 80px;
-    background: #0c1c31;
+
+    width: 90em;
     display: flex;
-    justify-content: center;
+    transform-style: preserve-3d;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    perspective: 2000px;
+    flex-wrap: wrap;
+    top: 3em;
+}
+
+.nav-div {
+    display: flex;
     align-items: center;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    border-bottom: solid #2b4475;
+
+}
+
+a {
+   text-decoration: none;
 }
 
 .nav-text {
-      float: left;
+      /*float: left;
       width: 175px;
-      padding-top: 10px;
+      display: flex;
       height: 40px;
       text-align: center;
       font-size: 18px;
       justify-content: center;
       color: white;
       text-decoration: none;
-      z-index: 1;
+      margin-bottom: 70px;*/
+    word-wrap: normal;
+    color: white;
+    font-weight: 600;
+    transform-style: preserve-3d;
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 90em;
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+    justify-content: center;
+    perspective: 200px;
+    letter-spacing: 2px;
+    min-height: 7.5em;
+    align-self: center;
 }
 
 .nav-text:hover {
@@ -37,14 +62,14 @@ nav {
 
 .nav-logo img {
       float: left;
-      padding-top: 00px;
       width: 40px;
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 30px;
+      margin-right: 30px;
       height: auto;
       text-align: center;
       justify-content: center;
       z-index: 1;
+      margin-bottom: 70px;
 }
 
 .nav-logo:hover {
@@ -64,7 +89,7 @@ nav {
         margin-left: 20px;
     }
     .nav-logo img {
-        width: 30px;
+        width: 15px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -73,7 +98,6 @@ nav {
 body {
     background: #0c1c31;
     overflow: auto;
-    margin-top: 80px;
     margin-bottom: 50px;
     width: 100vw;
     height: 100vh;
@@ -85,8 +109,7 @@ body {
     padding: 10px;
     justify-content: center;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucia Grande',
-    'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content {
@@ -97,16 +120,30 @@ body {
     width: 100vw;
     padding-left: 40px;
     padding-right: 40px;
+
+
 }
 
+#about-me-content {
+    align-content: center;
+    display: flex;
+    width: 80%;
+    margin: 25px auto 150px;
+}
 
 .content h1 {
     font-size: 56px;
     font-weight: 700;
+
 }
 
 .solid-line {
     border-bottom: 2px solid whitesmoke;
+    margin-top: 20px;
+}
+
+#projects, #experience, #resume {
+    text-align: center;
 }
 
 .content h3 {
@@ -123,12 +160,71 @@ body {
 }
 
 .content-box {
-    border: medium #2b4475 solid;
-    border-radius: 12px;
+
     margin-bottom: 15px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-right: 30px;
 }
+
+#name-content {
+    align-self: center;
+    margin: 0 auto;
+    font-size: 70px;
+    text-align: center;
+    width: 70%;
+}
+
+#title-content {
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    text-align: center;
+    width: 70%;
+    color: #e3e8ff;
+    text-shadow: #e3e8ff 1px 0 3px;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    15% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+#name {
+
+    font-size: 9vh;
+    background-image: linear-gradient(230deg, #bf65f2, #3de3ec);
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 94%}
+    50%{background-position:100% 7%}
+    100%{background-position:0% 94%}
+}
+
 
 .github-link {
     color: #76bbcc;

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacob Deaton's Portfolio</title>
@@ -10,11 +10,11 @@
 </head>
 <body>
     <nav>
-        <div>
-            <a class='nav-text' href="index.html">About Me</a>
-            <a class='nav-text' href="#projects-anchor">Projects</a>
-            <a class='nav-text' href="#experience-anchor">Experience</a>
-            <a class='nav-text' href="#resume-anchor">Resume</a>
+        <div class="nav-div">
+            <a class='nav-text' href="index.html">About&nbspMe</a>
+            <a class='nav-text' href="#projects">Projects</a>
+            <a class='nav-text' href="#experience">Experience</a>
+            <a class='nav-text' href="#resume">Resume</a>
             <a class='nav-logo' href="https://github.com/jd-58/"><img src="/images/github-mark-white.png"
                                                                       alt="The GitHub logo." class="nav-images"> </a>
             <a class='nav-logo' href="https://www.linkedin.com/in/jacob-deaton-45a02b171/">
@@ -25,21 +25,26 @@
     <section class="home">
         <div class="home-content">
 
-            <div class="content-box" id="about-me-box">
-                <div class="content" id="about-me-content">
+            <div class="content-box-no-border" id="about-me-box">
+                <div class="title-content" id="name-content">
                     <h1 id="name">Jacob Deaton</h1>
+                    </div>
+                <div class="title-content" id="title-content">
+
                     <h3 id="job-title">Software Engineer</h3>
+                    </div>
                     <h3 class="solid-line"></h3>
-                    <p>Hello! I am currently a student at Oregon State University, pursuing my B.S. in Computer Science.
-                    After graduating from the University of Virginia with a degree in Economics in 2021,
-                    I spent two years as a Business Development Analyst. After completing a few data analysis projects
-                        using Python, I realized that my true passion is coding, which led me to pursue a degree in
-                        Computer Science. <a class="navigation-anchor" id="projects-anchor"></a>
-                        I'm projected to graduate in August 2026 and am excited about finding
-                        internship opportunities. I believe my unique mix of skills and experiences would be a
-                        great addition to your team!</p>
+                    <div class="content" id="about-me-content">
+                    <p>I'm a Computer Science student at Oregon State University, graduating in August 2026.
+                        I have a B.S. in Economics from the University of Virginia (2021) and two years of
+                        experience as a Business Development Analyst.
+
+                        My passion for coding inspired me to switch
+                        careers. I'm excited to find internship opportunities where my unique skills and experiences
+                        can make a difference.
+                        </p>
                 </div>
-            </div>
+
 
             <div class="content-box" id="project-box">
                 <div class="content" id="project-content">
@@ -63,7 +68,7 @@
                         and the grid size. Click the "Demo" button to try it out! </p>
                         <img src="/images/etch-a-sketch.png" alt="A screenshot of the Etch-A-Sketch program."
                              class="project-images" style="min-width: 40vh; max-width: 100vh; height: auto; margin-top: 20px; margin-bottom: 30px; ">
-                    <a class="navigation-anchor" id="experience-anchor"></a>
+
                     <p id="blank-space"></p>
                 </div>
             </div>
@@ -84,7 +89,7 @@
                         <li>Managed and contributed to proposal development, including capture planning,
                             content generation, mentoring new employees,
                             interviewing key stakeholders, and independently developing and submitting RFIs; directly
-                            contributed to over <a class="navigation-anchor" id="resume-anchor"></a>
+                            contributed to over
                             20 proposals in the human capital sector with a collective value of over $5 million.</li>
                     </ul>
 
@@ -105,7 +110,7 @@
 
             </div>
         <div id="bottom-space"><p>test</p></div>
-
+        </div>
         </div>
     </section>
 
