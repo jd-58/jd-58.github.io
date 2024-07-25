@@ -2,33 +2,71 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucia Grande',
-    'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
-    height: 80px;
+    /*height: 10px;
     background: #0c1c31;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: relative;
+
+    width: 100%;
     border-bottom: solid #2b4475;
+    z-index: 2;
+    margin: 0px auto;
+    perspective: 2000px;
+    flex-wrap: wrap;
+    top: 3em;*/
+    width: 90em;
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    perspective: 2000px;
+    flex-wrap: wrap;
+    top: 3em;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+
+}
+
+a {
+   text-decoration: none;
 }
 
 .nav-text {
-      float: left;
+      /*float: left;
       width: 175px;
-      padding-top: 10px;
+      display: flex;
       height: 40px;
       text-align: center;
       font-size: 18px;
       justify-content: center;
       color: white;
       text-decoration: none;
-      z-index: 1;
+      margin-bottom: 70px;*/
+    word-wrap: normal;
+    color: white;
+    font-weight: 600;
+    transform-style: preserve-3d;
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 90em;
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+    justify-content: center;
+    perspective: 200px;
+    letter-spacing: 2px;
+    min-height: 7.5em;
+    align-self: center;
 }
 
 .nav-text:hover {
@@ -37,7 +75,6 @@ nav {
 
 .nav-logo img {
       float: left;
-      padding-top: 00px;
       width: 40px;
       margin-left: 50px;
       margin-right: 50px;
@@ -45,6 +82,7 @@ nav {
       text-align: center;
       justify-content: center;
       z-index: 1;
+      margin-bottom: 70px;
 }
 
 .nav-logo:hover {
@@ -64,7 +102,7 @@ nav {
         margin-left: 20px;
     }
     .nav-logo img {
-        width: 30px;
+        width: 15px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -73,7 +111,6 @@ nav {
 body {
     background: #0c1c31;
     overflow: auto;
-    margin-top: 80px;
     margin-bottom: 50px;
     width: 100vw;
     height: 100vh;
@@ -85,8 +122,7 @@ body {
     padding: 10px;
     justify-content: center;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucia Grande',
-    'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .content {
@@ -129,6 +165,62 @@ body {
     margin-left: 100px;
     margin-right: 30px;
 }
+
+#name-content {
+    align-self: center;
+    margin: 0 auto;
+    font-size: 70px;
+    text-align: center;
+    width: 70%;
+}
+
+#title-content {
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    text-align: center;
+    width: 70%;
+    color: #7792cc;
+    text-shadow: #7792cc 1px 0 5px;
+    animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    15% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+#name {
+
+  background-image: linear-gradient(
+    -225deg,
+    #441557 0%,
+    #10127a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+    background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 150px;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 
 .github-link {
     color: #76bbcc;
