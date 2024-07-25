@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+
 }
 
 nav {
@@ -83,30 +84,30 @@ body {
     overflow: auto;
     width: 100vw;
     height: 100vh;
-    margin: 0 auto;
     vertical-align: middle;
+
 }
 
 .home {
-    height: 25vh;
-    display: flex;
+    height: 100vh;
     padding: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    width: 100vh;
-    margin: 0 auto;
+
+    margin: 0;
+    align-content: space-evenly;
 }
 
 .content {
     max-width: 1500px;
     color: white;
-    margin: 10px;
     overflow: auto;
-    width: 100vw;
+    width: 100vh;
     padding-left: 40px;
     padding-right: 40px;
-    display: block;
+
+    margin: 0 auto;
 
 
 }
