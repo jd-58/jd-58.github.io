@@ -254,8 +254,12 @@ body {
 .pdf-holder  {
     display: flex;
     justify-content: center;
-    width: 75%;
+    width: 100%;
 
+}
+
+#resume-image {
+    width: 90%;
 }
 
 li {
