@@ -326,7 +326,43 @@ not GitHub pages, Seems to be a GitHub pages issue */
       opacity: .5;
 }
 
-
+@media only screen and (max-width: 100vh) and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (max-width: 100vh) and (min-resolution: 192dpi) {
+    nav {
+        height: 8vh; /* Adjusted for mobile */
+    }
+    .nav-text {
+        font-size: 2vh; /* Smaller text on mobile */
+        margin-right: 2vh; /* Increase right margin for spacing */
+        margin-left: 2vh; /* Increase left margin for spacing */
+    }
+    .nav-logo img {
+        width: 3vh; /* Smaller logo on mobile */
+        margin-left: 2vh; /* Adjust margins as necessary */
+        margin-right: 2vh;
+    }
+    .content {
+        padding-left: 2vh; /* Reduce left padding for smaller screens */
+        padding-right: 2vh; /* Reduce right padding for smaller screens */
+    }
+    .content-box {
+        margin-left: 1vh; /* Reduce left margin for smaller screens */
+        margin-right: 1vh; /* Reduce right margin for smaller screens */
+    }
+    .github-link, .content h1, .content h3, .content p, li {
+        font-size: 2vh; /* Adjust font size for better readability on mobile */
+    }
+    .project-images, .pdf-holder img {
+        width: 90%; /* Adjust image width to better fit mobile screens */
+        margin-top: 2vh; /* Adjust top margin for images */
+        margin-bottom: 4vh; /* Adjust bottom margin for images */
+    }
+    .download-button {
+        max-width: 20vh; /* Adjust button width for smaller screens */
+        font-size: 2vh; /* Reduce font size for the download button */
+        padding: 2vh 2.4vh; /* Adjust padding for the download button */
+    }
+}
 
 
 
