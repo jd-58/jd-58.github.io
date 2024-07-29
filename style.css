@@ -369,6 +369,10 @@ not GitHub pages, Seems to be a GitHub pages issue */
     nav {
         width: 90%
     }
+
+    #name-content {
+        font-size: 4.5vh;
+    }
 }
 
 
