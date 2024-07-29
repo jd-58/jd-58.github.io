@@ -254,6 +254,7 @@ body {
 .pdf-holder  {
     display: flex;
     justify-content: center;
+    width: 75%;
 
 }
 
