@@ -15,7 +15,7 @@ nav {
     position: relative;
     z-index: 2;
     margin: 0 auto;
-    perspective: 2000px;
+    perspective: 200vh;
     flex-wrap: wrap;
     top: 3em;
 }
@@ -51,8 +51,8 @@ a {
     box-sizing: border-box;
     padding: 1em 1.5em;
     justify-content: center;
-    perspective: 200px;
-    letter-spacing: 2px;
+    perspective: 20vh;
+    letter-spacing: 0.2vh;
     min-height: 7.5em;
     align-self: center;
 }
@@ -63,14 +63,14 @@ a {
 
 .nav-logo img {
       float: left;
-      width: 40px;
-      margin-left: 30px;
-      margin-right: 30px;
+      width: 3.5vh;
+      margin-left: 3vh;
+      margin-right: 3vh;
       height: auto;
       text-align: center;
       justify-content: center;
       z-index: 1;
-      margin-bottom: 70px;
+      margin-bottom: 6vh;
 }
 
 .nav-logo:hover {
@@ -90,7 +90,7 @@ body {
 
 .home {
     height: 100vh;
-    padding: 10px;
+    padding: 1vh;
     justify-content: space-evenly;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -100,12 +100,12 @@ body {
 }
 
 .content {
-    max-width: 1500px;
+    max-width: 150vh;
     color: white;
     overflow: auto;
     width: 100vh;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 4vh;
+    padding-right: 4vh;
 
     margin: 0 auto;
 
@@ -116,26 +116,26 @@ body {
     align-content: center;
     display: flex;
     width: 80%;
-    margin: 25px auto 150px;
+    margin: 2vh auto 15vh;
 }
 
 #experience {
-    margin-top: 125px;
+    margin-top: 12vh;
 }
 
 #resume {
-    margin-top: 75px;
+    margin-top: 7.5vh;
 }
 
 .content h1 {
-    font-size: 56px;
+    font-size: 5.6vh;
     font-weight: 700;
 
 }
 
 .solid-line {
-    border-bottom: 2px solid whitesmoke;
-    margin-top: 20px;
+    border-bottom: 0.2vh solid whitesmoke;
+    margin-top: 2vh;
 }
 
 #projects, #experience, #resume {
@@ -143,29 +143,29 @@ body {
 }
 
 .content h3 {
-    font-size: 32px;
+    font-size: 3.2vh;
     font-weight: 700;
     color: #76bbcc;
-    padding-top: 10px;
+    padding-top: 1vh;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 1.8vh;
     line-height: 1.5;
-    padding-top: 10px;
+    padding-top: 1vh;
 }
 
 .content-box {
 
-    margin-bottom: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 1.5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
 }
 
 #name-content {
     align-self: center;
     margin: 0 auto;
-    font-size: 70px;
+    font-size: 7vh;
     text-align: center;
     width: 70%;
 }
@@ -179,8 +179,9 @@ body {
     text-align: center;
     width: 70%;
     color: #e3e8ff;
-    text-shadow: #e3e8ff 1px 0 3px;
+    text-shadow: #e3e8ff 0.2vh 0 0.4vh;
     animation: fadeIn 3s;
+    letter-spacing: 0.3vh;
 }
 
 @keyframes fadeIn {
@@ -199,6 +200,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
+
 
     -webkit-animation: AnimationName 3s ease infinite;
     -moz-animation: AnimationName 3s ease infinite;
@@ -240,11 +242,11 @@ body {
 }
 
 #resume-line {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 #experience-line {
-    margin-bottom: 70px;
+    margin-bottom: 7vh;
 }
 
 .pdf-holder  {
@@ -254,28 +256,28 @@ body {
 }
 
 li {
-    font-size: 20px;
+    font-size: 1.8vh;
     line-height: 1.5;
     list-style-type: circle;
-    padding: 10px 0 !important;
-    padding-left: 20px !important;
+    padding: 1vh 0 !important;
+    padding-left: 2vh !important;
 }
 
 .resume-list {
-    font-size: 20px;
+    font-size: 1.8vh;
     line-height: 1.5;
     list-style-type: circle;
-    padding: 10px 0 !important;
-    padding-left: 20px !important;
+    padding: 1vh 0 !important;
+    padding-left: 2vh !important;
 }
 
 #blank-space { /* to make navigation work properly with the nav bar. scroll-margin-top works in localhost but
 not GitHub pages, Seems to be a GitHub pages issue */
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
 #resume-box {
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
 }
 
 #bottom-space {
@@ -295,12 +297,12 @@ not GitHub pages, Seems to be a GitHub pages issue */
       cursor: pointer;
       display: block;
       font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-      font-size: 16px;
+      font-size: 1.4vh;
       font-weight: 800;
-      line-height: 16px;
-      min-height: 40px;
+      line-height: 1.5vh;
+      min-height: 4vh;
       outline: 0;
-      padding: 12px 14px;
+      padding: 1.2vh 1.4vh;
       text-align: center;
       text-rendering: geometricprecision;
       text-transform: none;
@@ -310,7 +312,7 @@ not GitHub pages, Seems to be a GitHub pages issue */
       vertical-align: middle;
       justify-content: center;
       margin: 0 auto;
-      max-width: 200px;
+      max-width: 20vh;
 }
 
 .download-button:hover,
