@@ -262,6 +262,10 @@ body {
     width: 90%;
 }
 
+#stock-analyzer {
+    margin-top: 3vh;
+}
+
 li {
     font-size: 1.8vh;
     line-height: 1.5;
