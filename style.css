@@ -315,6 +315,7 @@ not GitHub pages, Seems to be a GitHub pages issue */
       justify-content: center;
       margin: 0 auto;
       max-width: 20vh;
+      min-width: 5vh;
 }
 
 .download-button:hover,
@@ -364,6 +365,9 @@ not GitHub pages, Seems to be a GitHub pages issue */
         max-width: 30vh; /* Adjust button width for smaller screens */
         font-size: 1.2vh; /* Reduce font size for the download button */
         padding: 1.5vh 1.8vh; /* Adjust padding for the download button */
+    }
+    nav {
+        width: 90%
     }
 }
 
