@@ -332,11 +332,11 @@ not GitHub pages, Seems to be a GitHub pages issue */
        only screen and (max-width: 100vh) and (min-resolution: 192dpi) {
 
     .nav-text {
-        font-size: 1.5vh; /* Smaller text on mobile */
+        font-size: 1.4vh; /* Smaller text on mobile */
         margin-right: 2vh; /* Increase right margin for spacing */
         margin-left: 2vh; /* Increase left margin for spacing */
-        padding-left: 0.1vh;
-        padding-right: 0.1vh;
+        padding-left: 0.03vh;
+        padding-right: 0.03vh;
     }
     .nav-logo img {
         width: 3vh; /* Smaller logo on mobile */
@@ -362,7 +362,7 @@ not GitHub pages, Seems to be a GitHub pages issue */
     }
     .download-button {
         max-width: 20vh; /* Adjust button width for smaller screens */
-        font-size: 2vh; /* Reduce font size for the download button */
+        font-size: 1.2vh; /* Reduce font size for the download button */
         padding: 2vh 2.4vh; /* Adjust padding for the download button */
     }
 }
